@@ -15,6 +15,8 @@ void addNode(){
     cin >> nim;
     cout << "Masukkan nama: ";
     cin >> nama;
+    nodeBaru->noMhs = nim;
+    nodeBaru->name = nama;
 }
 
 Node* START = NULL;
